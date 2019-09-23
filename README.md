@@ -15,6 +15,6 @@ npm run build
 
 
 
-## 演示网址：https://github.com/zhangyongwnag/ShoppingCart_react/build/index.html#/Index
+## 演示网：https://zhangyongwnag.github.io/ShoppingCart_react/build/index.html#/Index
 ## 演示图：
 ![](https://img-blog.csdnimg.cn/20190923174058901.gif)
