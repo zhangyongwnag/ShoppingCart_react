@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.shoppingCart_button {
+  width: 100px;
+  padding: 10px 10px;
+  border: 1px #eee solid;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 30px
+}
+
+.main {
+  opacity: 0;
+  transform: translateX(200px);
+  transition: all 0.5s linear;
+  width: 400px;
+  height: 400px;
+  background-color: #000;
+  border: 1px #eee solid;
+  border-radius: 10px
+}
+
+.todo_list{
+  transition: all 0.3s linear;
+  width: 400px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px #999 solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #000000;
+  box-shadow: 1px 1px 5px 0 #000;
+  color: #fff;
+}
+
+.fade-enter {
+  transform: translateX(300px);
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.fade-enter-done {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  transform: translateX(300px);
+  opacity: 0;
+}
+
+.fade-exit-done {
+  opacity: 0;
+}

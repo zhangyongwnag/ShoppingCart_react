@@ -1,0 +1,7 @@
+/build/
+/config/
+/scripts/
+/dist/
+/*.js
+*.jsx
+*.js
