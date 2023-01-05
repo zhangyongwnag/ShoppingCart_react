@@ -8,7 +8,7 @@
     "react-redux": "^7.1.1",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "0.9.x",
+    "react-scripts": "5.0.x",
     "react-transition-group": "^4.3.0",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
